@@ -16,8 +16,10 @@ For other GitHub authentication strategies see [octokit/auth.js](https://github.
 - [`createAppAuth(options)`](#createappauthoptions)
 - [`auth(options)`](#authoptions)
 - [Authentication object](#authentication-object)
-  - [JSON Web Token (JWT) authentication](#json-web-token-jwt-authentication)
-  - [Installation access token authentication](#installation-access-token-authentication)
+  * [JSON Web Token (JWT) authentication](#json-web-token-jwt-authentication)
+  * [Installation access token authentication](#installation-access-token-authentication)
+- [`auth.hook(request, route, parameters)` or `auth.hook(request, options)`](#authhookrequest-route-parameters-or-authhookrequest-options)
+- [Implementation details](#implementation-details)
 - [License](#license)
 
 <!-- tocstop -->
